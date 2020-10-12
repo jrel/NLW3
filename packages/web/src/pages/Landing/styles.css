@@ -1,0 +1,82 @@
+#page-landing {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-landing .wapper {
+  position: relative;
+
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+
+  background: url('../../images/landing.svg') no-repeat 80% center;
+}
+
+#page-landing .wapper main {
+  max-width: 350px;
+}
+
+#page-landing .wapper main h1 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+#page-landing .wapper main p {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#page-landing .wapper .location {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-size: 24px;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+}
+
+#page-landing .wapper .location strong {
+  font-weight: 800;
+}
+
+#page-landing .wapper .go-to {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 80px;
+  height: 80px;
+
+  background: #ffd666;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+#page-landing .wapper .go-to:hover {
+  background: #96feff;
+}
